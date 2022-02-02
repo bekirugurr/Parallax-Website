@@ -1,0 +1,108 @@
+html{
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.back-ground-img{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+.back-ground-img1{
+    background-image: url(./img/bg.jpg);
+    height: 625px;
+    min-height: 100%;
+}
+
+.back-ground-img2{
+    background-image: url(./img/bg2.jpg);
+    height: 500px;
+    min-height: 80%;
+}
+
+.back-ground-img3{
+    background-image: url(./img/bg3.jpg);
+    height: 500px;
+    min-height: 80%;
+}
+
+.back-ground-img4{
+    background-image: url(./img/bg4.jpg);
+    height: 500px;
+    min-height: 80%;
+}
+
+.back-ground-img5{
+    background-image: url(./img/bg.jpg);
+    height: 625px;
+    min-height: 100%;
+
+}
+.back-ground-img__bigheading{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    line-height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline-offset: 1rem ;
+    outline: 0.5rem inset purple;
+}
+.back-ground-img__heading2--logo{
+    height: 5rem;
+}
+.back-ground-img__smallheading{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0.7rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline-offset: 0.3rem ;
+    outline: 0.5rem inset purple;
+}
+.text{
+    padding: 3rem 5rem;
+
+}
+.text-black-background{
+    background-color: black;
+    color: rgba(245, 245, 245, 0.849);
+    opacity: 0.85;
+
+}
+.text-gray-background{
+    background-color: rgba(211, 211, 211, 0.377);
+    opacity: 0.6;
+
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    margin: 1.3rem 0;
+    text-align: center;
+}
+p{
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: center;
+}
